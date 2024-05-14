@@ -89,18 +89,17 @@ public class BowlingGameTest {
     }
 
     @Test
-    void wurf10(){
-        rollZeros(18);
-        roll(6, 4, 3);
-        assertEquals(13, game.totalScore());
-    }
-
-    @Test
     void wurf10WithStrike(){
         rollZeros(18);
         roll(10, 3, 2);
         assertEquals(15, game.totalScore());
     }
 
+    @Test
+    void wurf10(){
+        rollZeros(18);
+        roll(6, 4, 3);
+        assertEquals(13, game.totalScore());
+    }
 
 }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a233dd5-19ec-430c-b97f-3013df805d4b" name="Changes" comment="Anlegen des Projekts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classes/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +24,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "HannaBanane"
+    }
+  ],
   "lastFilter": {
-    "state": "OPEN",
     "assignee": "HannaBanane"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HannaBanane/TDD_Bowling.git",
-    "accountId": "39d9486e-6860-4a2c-a62d-87fcfb4d5d97"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HannaBanane/TDD_Bowling.git&quot;,
+    &quot;accountId&quot;: &quot;39d9486e-6860-4a2c-a62d-87fcfb4d5d97&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,32 +50,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.BowlingGameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.gameWithoutStrike.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.noSpareThrown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.onePinDown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.spareAndOnePinDown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.strike.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.threeStrikes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.twelveStrike.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.twoStrikes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.worstGamePossible.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.wurf10.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BowlingGameTest.wurf10WithStrike.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BowlingGameTest.executor": "Run",
+    "JUnit.BowlingGameTest.gameWithoutStrike.executor": "Run",
+    "JUnit.BowlingGameTest.noSpareThrown.executor": "Run",
+    "JUnit.BowlingGameTest.onePinDown.executor": "Run",
+    "JUnit.BowlingGameTest.spareAndOnePinDown.executor": "Run",
+    "JUnit.BowlingGameTest.strike.executor": "Run",
+    "JUnit.BowlingGameTest.threeStrikes.executor": "Run",
+    "JUnit.BowlingGameTest.twelveStrike.executor": "Run",
+    "JUnit.BowlingGameTest.twoStrikes.executor": "Run",
+    "JUnit.BowlingGameTest.worstGamePossible.executor": "Run",
+    "JUnit.BowlingGameTest.wurf10.executor": "Run",
+    "JUnit.BowlingGameTest.wurf10WithStrike.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest">
+}]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.BowlingGameTest.wurf10WithStrike">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bowling_Test-Driven-Development" />
       <extension name="coverage">
@@ -152,10 +166,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BowlingGameTest" />
-        <item itemvalue="JUnit.BowlingGameTest.wurf10" />
         <item itemvalue="JUnit.BowlingGameTest.wurf10WithStrike" />
         <item itemvalue="JUnit.BowlingGameTest.twelveStrike" />
+        <item itemvalue="JUnit.BowlingGameTest" />
+        <item itemvalue="JUnit.BowlingGameTest.wurf10" />
         <item itemvalue="JUnit.BowlingGameTest.threeStrikes" />
       </list>
     </recent_temporary>
@@ -185,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715678392264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Anlegen des Projekts">
+      <option name="closed" value="true" />
+      <created>1715679057912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715679057912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
